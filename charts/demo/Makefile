@@ -4,6 +4,7 @@ NAME := demo
 OS := $(shell uname)
 RELEASE_VERSION := $(shell cat ../../VERSION)
 
+
 build: clean
 	rm -rf requirements.lock
 	helm dependency build
