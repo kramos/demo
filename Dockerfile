@@ -12,3 +12,4 @@ COPY pom.xml target/lib* /opt/lib/
 COPY target/*.jar /opt/app.jar
 WORKDIR /opt
 CMD ["java", "-jar", "app.jar"]
+# 
